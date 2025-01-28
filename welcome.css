@@ -1,0 +1,21 @@
+.slider {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .paragraph {
+    font-size: 1.5rem;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .paragraph.active {
+    opacity: 1;
+  }
+  
+  .paragraph.hidden {
+    opacity: 0;
+  }
+  
+
+  
